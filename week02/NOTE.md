@@ -378,3 +378,5 @@ Object[[call]] [[construct]]  私有方法 存在于运行时
   - 原生对象（Native Objects）：可以由用户通过 Array、RegExp 等内置构造器或者特殊语法创建的对象。
 
   - 普通对象（Ordinary Objects）：由{}语法、Object 构造器或者 class 关键字定义类创建的对象，它能够被原型继承。
+
+# 
