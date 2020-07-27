@@ -1,11 +1,52 @@
-const EOF = Symbol("EOF")
 let currentToken = null
-
 let currentAttribute = null
+let currentTextNode = null;
+let stack = [{type: "document", children: []}]
 
 function emit(token) {
-    console.log(token)
+    // console.log(token)
+    let top = stack[stack.length - 1]
+    if (token.type === 'startTag') {
+        let element = {
+            type: 'element',
+            children: [],
+            attribute: []
+        }
+        element.tagName = token.tagName
+        for (const p in token) {
+            if (p !== 'type' || p !== 'tagName') {
+                element.attribute.push({
+                    name: p,
+                    value: token[p]
+                })
+            }
+        }
+        top.children.push(element)
+        element.parent = top
+        if (!token.isSelfClosing)
+            stack.push(element)
+        currentTextNode = null
+        console.log(top)
+    } else if (token.type === 'endTag') {
+        if (top.tagName !== token.tagName) {
+            throw new Error("Tag start end doesn't match")
+        } else {
+            stack.pop()
+        }
+        currentTextNode = null
+    } else if (token.type === 'text') {
+        if (currentTextNode == null) {
+            currentTextNode = {
+                type: 'text',
+                content: ''
+            }
+            top.children.push(currentTextNode)
+        }
+        currentTextNode.content += token.content
+    }
 }
+
+const EOF = Symbol("EOF")
 
 function data(c) {
     if (c == "<") {
@@ -64,10 +105,12 @@ function tagName(c) {
         return tagName
     } else if (c === '>') {
         emit(currentToken)
+        console.log(currentToken)
         return data
     } else {
         return tagName
     }
+
 }
 
 function beforeAttributeName(c) {
@@ -219,12 +262,8 @@ function selfClosingStartTag(c) {
 module.exports.parseHTML = function parseHTML(html) {
     let state = data
     for (let c of html) {
-
         state = state(c)
-        console.log('c  ', c)
-        console.log('currentToken  ', currentToken)
-        console.log('currentAttribute ', currentAttribute)
-        console.log('state ', state)
     }
     state = state(EOF)
+    return stack[0]
 }
