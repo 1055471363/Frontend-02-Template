@@ -1,6 +1,7 @@
 const net = require('net')
 const parser = require('./parser')
-
+const images = require('images')
+const render = require('render')
 class Request {
     constructor(options) {
         this.method = options.method || "GET"
@@ -190,6 +191,7 @@ class TrunkedBodyParser {
     }
 }
 
+
 void async function () {
     let request = new Request({
         method: 'POST',
@@ -204,7 +206,11 @@ void async function () {
         }
     });
     let response = await request.send()
+    // console.log(response.body)
     // 理论应该逐段解析
     let dom = parser.parseHTML(response.body)
-    console.log(dom)
+    let viewport = images(800,600)
+
+    render(viewport,dom)
+    viewport.save('viewport.jpg')
 }();
