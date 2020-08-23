@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b93af7-1b00-4316-a891-9e457073a319" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week06/css-crawler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week06/scratch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week06/动画.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week06/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week06/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week06/.idea/week06.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week07/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week07/NOTE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week08/apis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week08/range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week08/reverse0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week08/reverse1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week08/reverse2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week08/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week08/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +37,38 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week08" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\Frontend-02-Template\week08" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\study\Frontend-02-Template\week06" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.apis.html">
     <configuration name="动画.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week06/动画.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="apis.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week08/apis.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="range.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week08/range.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="reverse1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week08/reverse1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="reverse2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week08/reverse2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.apis.html" />
+        <item itemvalue="JavaScript Debug.reverse2.html" />
+        <item itemvalue="JavaScript Debug.reverse1.html" />
+        <item itemvalue="JavaScript Debug.range.html" />
         <item itemvalue="JavaScript Debug.动画.html" />
       </list>
     </recent_temporary>
@@ -63,6 +82,10 @@
       <option name="presentableId" value="Default" />
       <updated>1596976905111</updated>
       <workItem from="1596976906240" duration="4140000" />
+      <workItem from="1597561627915" duration="660000" />
+      <workItem from="1597755228755" duration="2687000" />
+      <workItem from="1597927411412" duration="597000" />
+      <workItem from="1598187876082" duration="3889000" />
     </task>
     <servers />
   </component>

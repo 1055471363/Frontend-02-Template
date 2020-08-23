@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="a">
+    <span>1</span>
+    <p>2</p>
+    <a>3</a>
+    <div>4</div>
+</div>
+<script>
+    let element = document.getElementById("a")
+
+    function reverseChildren(element) {
+        let children = Array.prototype.slice.call(element.childNodes)
+        for (const child of children) {
+            element.removeChild(child)
+        }
+        children.reverse()
+        for (const child of children) {
+            element.appendChild(child)
+        }
+    }
+
+    reverseChildren()
+</script>
+</body>
+</html>
