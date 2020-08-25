@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b93af7-1b00-4316-a891-9e457073a319" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week08/apis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week08/range.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week08/reverse0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week08/reverse1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week08/reverse2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week09/Gomoku.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week09/HicTacToe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week09/HicTacToe1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week09/traffic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week08/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week08/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,39 +35,41 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/week08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week09" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\Frontend-02-Template\week08" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\study\Frontend-02-Template\week06" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\Frontend-02-Template\week09" />
+      <recent name="D:\study\Frontend-02-Template\week08" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.apis.html">
-    <configuration name="动画.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week06/动画.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.traffic.html">
+    <configuration name="HicTacToe1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week09/HicTacToe1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="HicTacToe.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week09/HicTacToe.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="apis.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week08/apis.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="range.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week08/range.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="reverse1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week08/reverse1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="reverse2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week08/reverse2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="traffic.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week09/traffic.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.traffic.html" />
+        <item itemvalue="JavaScript Debug.HicTacToe1.html" />
+        <item itemvalue="JavaScript Debug.HicTacToe.html" />
         <item itemvalue="JavaScript Debug.apis.html" />
         <item itemvalue="JavaScript Debug.reverse2.html" />
-        <item itemvalue="JavaScript Debug.reverse1.html" />
-        <item itemvalue="JavaScript Debug.range.html" />
-        <item itemvalue="JavaScript Debug.动画.html" />
       </list>
     </recent_temporary>
   </component>
@@ -85,12 +85,22 @@
       <workItem from="1597561627915" duration="660000" />
       <workItem from="1597755228755" duration="2687000" />
       <workItem from="1597927411412" duration="597000" />
-      <workItem from="1598187876082" duration="3889000" />
+      <workItem from="1598187876082" duration="15600000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="62" key="SettingsEditor" timestamp="1598272299723">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="540" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1598272299723" />
+    <state x="809" y="193" key="run.anything.popup" timestamp="1598354919589">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="809" y="193" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1598354919589" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Frontend_02_Template$_html.dat" NAME="动画.html Coverage Results" MODIFIED="1597068772865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

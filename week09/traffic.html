@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title></title>
+    <style>
+        .cont {
+            padding: 5px;
+            border-radius: 4px;
+            border: 1px solid pink;
+            display: inline-block;
+            background: rgb(220, 220, 220);
+        }
+        .light {/**通用红绿灯样式*/
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;/**制造圆形，正圆*/
+            transition: all .4s ease-in-out;/**设置过渡动画，css3.当状态有变化时，400ms将变化逐渐过渡。因为后边只有透明度有变化，所以在这里设置all 或者 opacity 都是可以的*/
+            display: inline-block;/**行内块儿元素，为了三个灯在一行内。也可以不设置。那就是三个灯竖排。元素排列在这个例子中不是重点，不做赘述*/
+            margin: 0 2px;/**元素横向外间距*/
+        }
+
+        .green {
+            background: green;/**背景色设置绿色，标记绿灯*/
+        }
+
+        .yellow {
+            background: yellow;/**背景色设置黄色，标记黄灯*/
+        }
+
+        .red {
+            background: red;/**背景色设置红色，标记红灯*/
+        }
+
+        .off {
+            opacity: 0.3;/**30%的透明度，表现灯处于灭的状态。不设置这个值的时候，默认是1.0（不透明）*/
+        }
+    </style>
+</head>
+
+<body>
+<div class="cont">
+    <div class="light green">
+        <!--绿灯-->
+    </div>
+    <div class="light yellow off">
+        <!--黄灯-->
+    </div>
+    <div class="light red off">
+        <!--红灯-->
+    </div>
+</div>
+</body>
+<script>
+    //红绿灯类名，随便写的
+    class LightFn {
+        constructor() {
+
+        }
+        async run() {
+            // this.light('green');
+            // await this.sleep(3000);
+            // this.light('yellow');
+            // await this.sleep(1000);
+            // this.light('red');
+            // await this.sleep(2000);
+            // this.run();
+            while (true) {//while(真值)无限循环，表示红绿灯是一直循环亮起的
+                this.light('green');//亮绿灯
+                await this.sleep(10000);//持续等待3000毫秒，也就是3秒钟
+                this.light('yellow');//亮黄灯
+                await this.sleep(2000);//持续等待1000毫秒，也就是1秒钟
+                this.light('red');//亮红灯
+                await this.sleep(5000);//持续等待2000毫秒，也就是两秒钟
+            }
+        }
+        //亮灯方法
+        light(val) {//传入参数亮起那一盏灯
+            ['green', 'yellow', 'red'].forEach(function(item, index) {
+                if (val == item) {//循环判断所有的灯颜色，如果和传入颜色值相等，那么就亮这盏灯
+                    document.querySelector('.' + item).classList.remove('off');
+                } else {//循环判断所有的灯颜色，如果和传入颜色值不相等，那么把这盏灯灭掉
+                    document.querySelector('.' + item).classList.add('off');
+                }
+            })
+        }
+
+        //es6语法，等待传入时长的一个方法
+        //duration 传递传入的等待时间
+        sleep(duration) {
+            return new Promise((resolve, reject) => {
+                setTimeout(resolve, duration)//宏任务列表添加事件，当事件队列执行到并等待duration时间后，执行resolve方法，promise结束
+            })
+        }
+    }
+    let a = new LightFn();//创建一个红绿灯实例
+    a.run();//开始按内部写的时间定时闪烁红绿灯
+</script>
+</html>
