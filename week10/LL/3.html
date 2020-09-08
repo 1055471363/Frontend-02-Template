@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let regexp = /([0-9\.]+)|([ \t]+)|([\r\n]+)|(\*)|(\/)|(\+)|(\-)/g
+    let dictionary = ['Number', 'Whitespace', 'LineTerminator', '*', '/', '+', '-']
+
+    /**
+     * yield是ES6的新关键字，使生成器函数执行暂停，yield关键字后面的表达式的值返回给生成器的调用者。它可以被认为是一个基于生成器的版本的return关键字。
+     yield关键字实际返回一个IteratorResult（迭代器）对象，它有两个属性，value和done，分别代表返回值和是否完成。
+     yield无法单独工作，需要配合generator(生成器)的其他函数，如next，懒汉式操作，展现强大的主动控制特性。
+     * @param source
+     * @returns {Generator<{type: null, value: null}, void, *>}
+     */
+    function* tokenize(source) {
+        let result = null
+        let lastIndex = 0
+        while (true) {
+            lastIndex = regexp.lastIndex
+            result = regexp.exec(source)
+
+            if (!result) break
+            //长度超了,说明里面有不认识的字符
+            if (regexp.lastIndex - lastIndex > result[0].length) break
+            let token = {
+                type: null,
+                value: null
+            }
+            for (let i = 1; i <= dictionary.length; i++) {
+                if (result[i])
+                    token.type = dictionary[i - 1]
+            }
+            token.value = result[0]
+            yield token
+        }
+        yield {type: 'EOF'}
+    }
+
+    let source = []
+    for (const token of tokenize("1024 + 10 * 25")) {
+        if (token.type !== 'Whitespace' && token.type !== 'LineTerminator')
+            source.push(token)
+    }
+
+    function Expression(tokens) {
+
+    }
+
+    function AdditiveExpression(source) {
+
+    }
+
+    function MultiplicativeExpress(source) {
+        console.log(source)
+    }
+
+    MultiplicativeExpress("10 * 25")
+
+</script>

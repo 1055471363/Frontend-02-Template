@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12b93af7-1b00-4316-a891-9e457073a319" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week09/Gomoku.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week09/HicTacToe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week09/HicTacToe1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week09/traffic.html" afterDir="false" />
+    <list default="true" id="12b93af7-1b00-4316-a891-9e457073a319" name="Default Changelist" comment="week009">
+      <change afterPath="$PROJECT_DIR$/week09/数据结构.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/LL/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/LL/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/LL/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/LL/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/LL/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/LL/6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/Trie/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/Wildcard/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/kmp/kmp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week10/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,41 +42,46 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/week09" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week10/LL" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\Frontend-02-Template\week06" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\Frontend-02-Template\week10\LL" />
+      <recent name="D:\study\Frontend-02-Template\week09\mapEditor" />
       <recent name="D:\study\Frontend-02-Template\week09" />
       <recent name="D:\study\Frontend-02-Template\week08" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\Frontend-02-Template\week09" />
+      <recent name="D:\study\Frontend-02-Template\week06" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.traffic.html">
-    <configuration name="HicTacToe1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week09/HicTacToe1.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.1.html (1)">
+    <configuration name="1.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week10/Wildcard/1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="HicTacToe.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week09/HicTacToe.html" useBuiltInWebServerPort="true">
+    <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week10/Trie/1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="apis.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week08/apis.html" useBuiltInWebServerPort="true">
+    <configuration name="4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week10/LL/4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="reverse2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week08/reverse2.html" useBuiltInWebServerPort="true">
+    <configuration name="5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week10/LL/5.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="traffic.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week09/traffic.html" useBuiltInWebServerPort="true">
+    <configuration name="6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-02-Template/week10/LL/6.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.traffic.html" />
-        <item itemvalue="JavaScript Debug.HicTacToe1.html" />
-        <item itemvalue="JavaScript Debug.HicTacToe.html" />
-        <item itemvalue="JavaScript Debug.apis.html" />
-        <item itemvalue="JavaScript Debug.reverse2.html" />
+        <item itemvalue="JavaScript Debug.1.html (1)" />
+        <item itemvalue="JavaScript Debug.1.html" />
+        <item itemvalue="JavaScript Debug.6.html" />
+        <item itemvalue="JavaScript Debug.5.html" />
+        <item itemvalue="JavaScript Debug.4.html" />
       </list>
     </recent_temporary>
   </component>
@@ -86,17 +98,54 @@
       <workItem from="1597755228755" duration="2687000" />
       <workItem from="1597927411412" duration="597000" />
       <workItem from="1598187876082" duration="15600000" />
+      <workItem from="1598445410314" duration="2617000" />
+      <workItem from="1598532868092" duration="248000" />
+      <workItem from="1598533149618" duration="3968000" />
+      <workItem from="1598756037069" duration="5914000" />
+      <workItem from="1598770359648" duration="1435000" />
+      <workItem from="1598772256370" duration="3854000" />
+      <workItem from="1598964583635" duration="9702000" />
+      <workItem from="1599356858340" duration="11072000" />
+      <workItem from="1599568148718" duration="445000" />
     </task>
+    <task id="LOCAL-00001" summary="week009">
+      <created>1599136359891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599136359891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="week009" />
+    <option name="LAST_COMMIT_MESSAGE" value="week009" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1599136358057">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599136358057" />
+    <state x="969" y="119" key="RollbackChangesDialog" timestamp="1599357745436">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="969" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1599357745436" />
     <state x="540" y="62" key="SettingsEditor" timestamp="1598272299723">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="540" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1598272299723" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1599136362384">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599136362384" />
+    <state x="860" y="100" width="583" height="640" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599136157907">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="860" y="100" width="583" height="640" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1599136157907" />
     <state x="809" y="193" key="run.anything.popup" timestamp="1598354919589">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
