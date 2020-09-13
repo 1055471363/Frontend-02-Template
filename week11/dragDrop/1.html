@@ -1,0 +1,62 @@
+<div id="container">美国又一次选择站到全球169个国家的对立面。
+
+    当地时间9月11日，联合国大会通过一项关于应对新冠疫情大流行的广泛决议，敦促会员国通过加强国际合作与团结互助应对新冠疫情。
+
+    据美联社当天报道，这一决议以169：2获得压倒性多数通过，仅美国和以色列投下了反对票，乌克兰和匈牙利弃权。
+
+    美联社指出，作为联合国中最具代表性的机构，当天压倒性赞成的投票结果是联合国大会团结一致的有力证明。而日本共同社表示，这一结果再次凸显了美国在国际社会的孤立形象。
+    报道称，这项决议并不具有法律约束力，但却是当天联合国大会所通过的决议中受到最广泛响应的一项。
+
+    决议称，新冠疫情大流行是“联合国历史上最大的全球性挑战之一”，开展国际合作，践行多边主义，团结互助，是全世界有效应对新冠疫情等全球危机的唯一途径，呼吁各国采取以人为本、注重性别平等、充分尊重人权的应对措施。
+    在很久很久之前，每当有家长问孩子，长大之后的理想是什么，孩子们肯定会天真的说到：科学家、老师、医生等等。可是随着时代变化，如今孩子们所处的生活环境也有了很大的不同，他们接受到的新鲜事物更多了，
+    态度也就发生了转变，如今的家长再问起孩子相同的问题，得到的回答大部分都是演员、网红、歌手等等。这样的现实令很多网友都感到无奈。
+
+    虽说在娱乐圈里，有很多的正能量明星，但是最值得尊重的人，却还是那些奋斗在医疗前线、为国家做出伟大贡献的医生与科学家们。他们没有明星的高收入，但是却有着一颗服务人民的心，默默无闻的献出一己之力，
+    比如今天要说的这一位就是大家都十分敬佩的“超级英雄”，他就是钟南山。一场突如其来的严重疫情，让人们见识到了这位老前辈的“超能力”。
+</div>
+<div id="dragable" style="display:inline-block;width:100px;height:100px;background-color:pink"></div>
+<script>
+    let dragable = document.getElementById('dragable')
+    let baseX = 0, baseY = 0
+    dragable.addEventListener('mousedown', function () {
+        let startX = event.clientX, startY = event.clientY
+        let up = event => {
+            baseX = baseX + event.clientX - startX
+            baseY = baseY + event.clientY - startY
+            document.removeEventListener('mousemove', move)
+            document.removeEventListener('mouseup', up)
+        }
+        let move = event => {
+            // dragable.style.transform = `translate(${baseX + event.clientX - startX}px,${baseY + event.clientY - startY}px)`
+            let range = getNearest(event.clientX, event.clientY)  //插入点最近的range
+            range.insertNode(dragable)
+        }
+        document.addEventListener('mousemove', move)
+        document.addEventListener('mouseup', up)
+    })
+
+    let container = document.getElementById('container')
+    let ranges = []
+    for (let i = 0; i < container.childNodes[0].textContent.length; i++) {
+        let range = document.createRange()
+        range.setStart(container.childNodes[0], i)
+        range.setEnd(container.childNodes[0], i)
+        console.log(range.getBoundingClientRect())
+        ranges.push(range)
+    }
+
+    function getNearest(x, y) {
+        let min = Infinity
+        let nearest = null
+        for (const range of ranges) {
+            let rect = range.getBoundingClientRect()
+            let distance = (rect.x - x) ** 2 + (rect.y - y) ** 2
+            if (distance < min) {
+                nearest = range
+                min = distance
+            }
+        }
+        return nearest
+    }
+    document.addEventListener('selectstart', event => event.preventDefault())
+</script>

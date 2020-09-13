@@ -28,7 +28,8 @@
                 i++
             }
             let reg = new RegExp(subPattern.replace(/\?/g, '[\\s\S]'), 'g')
-            console.log(reg.exec(source))
+            if (!reg.exec(source)) return false
+           // console.log(reg.exec(source))
             lastIndex = reg.lastIndex
         }
         //尾部匹配
@@ -37,4 +38,6 @@
             return true
         }
     }
+
+    //find('abcabcabxaac','a*b*b?x*c')
 </script>
