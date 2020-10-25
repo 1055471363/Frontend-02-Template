@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12b93af7-1b00-4316-a891-9e457073a319" name="Default Changelist" comment="week009">
-      <change afterPath="$PROJECT_DIR$/week09/数据结构.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/LL/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/LL/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/LL/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/LL/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/LL/5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/LL/6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/Trie/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/Wildcard/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/kmp/kmp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week10/NOTE.md" afterDir="false" />
-    </list>
+    <list default="true" id="12b93af7-1b00-4316-a891-9e457073a319" name="Default Changelist" comment="week009" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +95,7 @@
       <workItem from="1599356858340" duration="11072000" />
       <workItem from="1599568148718" duration="450000" />
       <workItem from="1599605178556" duration="599000" />
+      <workItem from="1603609496335" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="week009">
       <created>1599136359891</created>
