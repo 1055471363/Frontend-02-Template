@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf7850f-c3e4-43be-b5ae-ca7615d1e727" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../week18/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../week18/NOTE.md" afterDir="false" />
+    <list default="true" id="b576f4b4-4392-47ac-bbe1-a09982d053c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../week17/html-parse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week17/html-parse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1jzDYvk7lNHlgwHbaEyF0Bn3wzz" />
+  <component name="ProjectId" id="1kdoSE0VvFUJJKVJVRuwGXLVDXg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,16 +22,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week18/publish-server" />
-    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="coverage" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="coverage" />
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -38,31 +39,24 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.coverage" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ecf7850f-c3e4-43be-b5ae-ca7615d1e727" name="Default Changelist" comment="" />
-      <created>1604798077483</created>
+      <changelist id="b576f4b4-4392-47ac-bbe1-a09982d053c5" name="Default Changelist" comment="" />
+      <created>1606039826504</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604798077483</updated>
-      <workItem from="1604798078519" duration="516000" />
-      <workItem from="1604842582369" duration="22000" />
-      <workItem from="1606033512674" duration="15000" />
+      <updated>1606039826504</updated>
+      <workItem from="1606039827545" duration="935000" />
+      <workItem from="1606400087676" duration="601000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1606033524941">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606033524941" />
   </component>
 </project>
